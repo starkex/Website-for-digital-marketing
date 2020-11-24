@@ -67,8 +67,6 @@ if (isset($_POST['Email'])) {
 
 }
 ?>
-
-
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
@@ -257,7 +255,6 @@ if (isset($_POST['Email'])) {
     </div>
     <div class="page">
       <header class="section page-header">
-        <!--RD Navbar-->
         <div class="rd-navbar-wrap">
           <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
             <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
@@ -267,13 +264,13 @@ if (isset($_POST['Email'])) {
                   <li>
                     <div class="unit unit-spacing-xs align-items-center">
                       <div class="unit-left"><span class="icon text-middle fa-phone"></span></div>
-                      <div class="unit-body"><a href="tel:#"  style="color:black;">+91-9622215397</a></div>
+                      <div class="unit-body"><a href="tel:#"  style="color:black;">9999999999</a></div>
                     </div>
                   </li>
                   <li>
                     <div class="unit unit-spacing-xs align-items-center">
                       <div class="unit-left"><span class="icon text-middle fa-envelope"></span></div>
-                      <div class="unit-body"><a href="mailto:#" style="color:black;">contact@indiaroots.in</a></div>
+                      <div class="unit-body"><a href="mailto:#" style="color:black;">starkgg@gmail.com</a></div>
                     </div>
                   </li>
 
@@ -287,13 +284,10 @@ if (isset($_POST['Email'])) {
             </div>
             <div class="rd-navbar-main-outer">
               <div class="rd-navbar-main">
-                <!--RD Navbar Panel-->
                 <div class="rd-navbar-panel">
-                  <!--RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                  <!--RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--> <a class="brand" href="index.html"><img class="brand-logo-dark" src="images/rootfinwhite.png" alt="RStark" width="100" height="17"/>
+                <a class="brand" href="index.html"><img class="brand-logo-dark" src="images/rootfinwhite.png" alt="RStark" width="100" height="17"/>
                         <img class="brand-logo-light" src="images/rootfin.png" alt="" width="100" height="17"/></a>
                   </div>
                 </div>
@@ -316,7 +310,6 @@ if (isset($_POST['Email'])) {
           </nav>
         </div>
       </header>
-
         <section class="intro-bg section main-section section-intro context-dark" style="background:url('images/blue.png') no-repeat center center; background-size:cover;">
         <div class="container">
           <div class="row justify-content-center">
@@ -327,29 +320,19 @@ if (isset($_POST['Email'])) {
           </div>
         </div>
       </section>
-      <!--Mailform-->
       <section class="section section-md">
         <div class="container">
-          <!--RD Mailform-->
           <div class="row justify-content-center">
             <div class="beauty col-xl-6 col-md-8 col-12">
 
              <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                 <div class="form-wrap">
-                <!--  <label class="form-label" for="contact-name">Name<span class="req-symbol">*</span></label> -->
                   <input class="form-input" id="Name" name="Name" placeholder="Name" type="text" name="name" data-constraints="@Required">
                 </div>
-              <!--  <div class="form-wrap">
-                  <label class="form-label" for="contact-phone">Phone<span class="req-symbol">*</span></label>
-                  <input class="form-input" id="Email" name="Email" type="text" name="phone" data-constraints="@Required @PhoneNumber">
-                </div>
-                -->
                 <div class="form-wrap">
-                <!--  <label class="form-label" for="contact-email">E-Mail<span class="req-symbol">*</span></label>-->
                   <input class="form-input" id="Email" name="Email" name="email" placeholder="E-mail" data-constraints="@Required">
                 </div>
                 <div class="form-wrap">
-                <!--  <label class="form-label label-textarea" for="contact-message">Message<span class="req-symbol">*</span></label>-->
                   <textarea class="form-input" id="contact-message" placeholder="Message" name="contact-message" data-constraints="@Required"></textarea>
                 </div>
 
@@ -357,27 +340,10 @@ if (isset($_POST['Email'])) {
                   <button class="button-beauty " id="fcf-button" type="submit">Send</button>
                 </div>
               </form>
-
-
             </div>
           </div>
         </div>
       </section>
-      <!--Google Map
-      <section class="section">
-      ***  Please, add the data attribute data-key="YOUR_API_KEY" in order to insert your own API key for the Google map.
-        Please note that YOUR_API_KEY should replaced with your key.
-        <Example: <div class="google-map-container" data-key="YOUR_API_KEY">***
-
-        <div class="google-map-container contacts-map" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:60}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:40},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.province&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;lightness&quot;:30}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ef8c25&quot;},{&quot;lightness&quot;:40}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b6c54c&quot;},{&quot;lightness&quot;:40},{&quot;saturation&quot;:-40}]},{}]">
-          <div class="google-map"></div>
-          <ul class="google-map-markers">
-            <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
-          </ul>
-        </div>
-      </section><a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank" style="background-image: url(images/background-01-1920x310.jpg); background-image: -webkit-image-set( url(images/background-01-1920x310.jpg) 1x, url(images/background-01-3840x620.jpg) 2x )"><img src="images/foreground-01-1600x310.png" srcset="images/foreground-01-1600x310.png 1x, images/foreground-01-3200x620.png 2x" alt="" width="1600" height="310"></a> -->
-      <!--Footer-->
-
       <footer class="section footer-classic section-sm">
         <div class="container">
           <div class="row row-30">
@@ -390,12 +356,12 @@ Our Cadre of Innovators and technical wizzards yearn to pick up new found challe
             </div>
             <div class="col-lg-3 col-sm-8 wow fadeInUp">
               <P class="footer-classic-title">Contact info</P>
-              <div class="d-block offset-top-0">D-9 Workshala, sec-3<span class="d-lg-block">Noida-20130, India</span></div>
+              <div class="d-block offset-top-0">A-69/11 Boston Street<span class="d-lg-block">California, USA</span></div>
               <br>
-              <div class="d-block offset-top-0">K-3/23 DLF Phase II<span class="d-lg-block">Gurgaon-122010, India</span></div>
-              <a class="d-inline-block accent-link" href="mailto:#">contact@indiaroots.in</a>
+              <div class="d-block offset-top-0">A-69/11 Boston Street<span class="d-lg-block">California, USA</span></div>
+              <a class="d-inline-block accent-link" href="mailto:#">starkgg@gmail.com</a>
               <br>
-              <a class="d-inline-block" href="tel:#">+91-9622215397</a>
+              <a class="d-inline-block" href="tel:#">9999999999</a>
 
             </div>
             <div class="col-lg-2 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
@@ -411,17 +377,17 @@ Our Cadre of Innovators and technical wizzards yearn to pick up new found challe
               <p class="scott"> SOCIAL LINKS</p>
               <ul class="social-nav model-3d-1">
 
-      <li><a class="facebook" href="https://www.facebook.com/indiaroots.org">
+      <li><a class="facebook" href="https://www.facebook.com/">
           <div class="fornt"><i class="fa fa-facebook"></i></div>
           <div class="back"><i class="fa fa-facebook"></i></div>
         </a>
       </li>
-      <li><a class="linkedin" href="https://www.linkedin.com/company/india-roots">
+      <li><a class="linkedin" href="https://www.linkedin.com/company/">
           <div class="front"><i class="fa fa-linkedin"></i></div>
           <div class="back"><i class="fa fa-linkedin"></i></div>
         </a>
       </li>
-      <li><a class="pinterest" href="https://www.instagram.com/indiaroots/">
+      <li><a class="pinterest" href="https://www.instagram.com/">
           <div class="front"><i class="fa fa-instagram"></i></div>
           <div class="back"><i class="fa fa-instagram"></i></div>
         </a>
