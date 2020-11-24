@@ -1,0 +1,151 @@
+<div class="row row-cols-3">
+  <div class="col bg-success">1 of 4</div>
+  <div class="col bg-warning">2 of 4</div>
+  <div class="col bg-success">3 of 4</div>
+  <div class="col bg-warning">4 of 4</div>
+</div>
+
+<div class="row">
+    <div class="col bg-success">.col</div>
+    <div class="col bg-warning">.col</div>
+    <div class="col bg-success">.col</div>
+  </div>
+</div>
+
+<div class="col-xl-7 col-lg-7 col-lg-7">
+  <div class="section-name wow fadeInRight">our features</div>
+  <h3 class="text-capitalize devider-left wow fadeInLeft" data-wow-delay=".2s">Why Businesses<span class="text-primary"> Choose us</span></h3>
+  <p>With over 20 years of experience in business consulting, we have a lot to offer to our clients. Here are some reasons why companies worldwide choose us.</p>
+  <div class="row ">
+    <div class="col-xl-6 wow fadeInUp" data-wow-delay=".2s">
+      <div class="box-default">
+        <div class="box-default-title">Innovative Solutions</div>
+        <p class="box-default-description">Our services and solutions are built on business innovations.Our services and solutions are built on business innovationsOur services and solutions are built on business innovationsOur services and solutions are built on business innovations</p><span class="box-default-icon novi-icon icon-lg mercury-icon-lightbulb-gears"></span>
+      </div>
+    </div>
+    <div class="col-xl-6 wow fadeInUp" data-wow-delay=".3s">
+      <div class="box-default">
+        <div class="box-default-title">Strategic Thinking</div>
+        <p class="box-default-description">СonsultBiz works strategically to forge the best path for your business.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-target-2"></span>
+      </div>
+    </div>
+    <div class="col-xl-6 wow fadeInUp" data-wow-delay=".4s">
+      <div class="box-default">
+        <div class="box-default-title">Experienced Team</div>
+        <p class="box-default-description">We employ the best consultants with more than 10 years of experience.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-user"></span>
+      </div>
+    </div>
+    <div class="row ">
+    <div class="col-xl-6 wow fadeInUp" data-wow-delay=".4s">
+      <div class="box-default">
+        <div class="box-default-title">Experienced Team</div>
+        <p class="box-default-description">We employ the best consultants with more than 10 years of experience.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-user"></span>
+      </div>
+    </div>
+    <div class="col-xl-6 wow fadeInUp" data-wow-delay=".4s">
+      <div class="box-default">
+        <div class="box-default-title">Experienced Team</div>
+        <p class="box-default-description">We employ the best consultants with more than 10 years of experience.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-user"></span>
+      </div>
+    </div>
+    <div class="col-xl-6 wow fadeInUp" data-wow-delay=".5s">
+      <div class="box-default">
+        <div class="box-default-title">Creative Approach</div>
+        <p class="box-default-description">Every project we work on is based on the creative solutions of any issues.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-partners"></span>
+      </div>
+    </div>
+
+       </div>
+           </div>
+</div>
+
+
+/*line25
+<a class="section section-banner d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank" style="background-image: url(images/background-02-1920x60.jpg); background-image: -webkit-image-set( url(images/background-02-1920x60.jpg) 1x, url(images/background-02-3840x120.jpg) 2x )"><img src="images/star.jpg" srcset="images/foreground-02-1600x60.png 1x, images/foreground-02-3200x120.png 2x" alt="" width="1600" height="310"></a>
+
+line 366
+<a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank" style="background-image: url(images/blue.png); background-image: -webkit-image-set( url(images/background-01-1920x310.jpg) 1x, url(images/background-01-3840x620.jpg) 2x )"><img src="images/blue.png" srcset="images/purple.jpg 1x, images/foreground-01-3200x620.png 2x" alt="" width="1600" height="310"></a>
+
+line 233
+
+<!--Counters-->
+<section class="section bg-image-2">
+  <div class="container section-md">
+    <div class="row row-30 text-center">
+      <div class="col-xl-3 col-sm-6 col-12">
+        <div class="counter-classic">
+          <div class="counter-classic-number"><span class="icon-lg novi-icon offset-right-10 mercury-icon-time"></span><span class="counter text-white" data-speed="2000">2007</span>
+          </div>
+          <div class="counter-classic-title">Year of Establishment</div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 col-12">
+        <div class="counter-classic">
+          <div class="counter-classic-number"><span class="icon-lg novi-icon offset-right-10 mercury-icon-folder"></span><span class="counter text-white" data-speed="2000">547</span>
+          </div>
+          <div class="counter-classic-title">Successful Projects</div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 col-12">
+        <div class="counter-classic">
+          <div class="counter-classic-number"><span class="icon-lg novi-icon offset-right-10 mercury-icon-users"></span><span class="counter text-white" data-speed="2000">45</span><span class="symbol text-white">+</span>
+          </div>
+          <div class="counter-classic-title">Global Partners</div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 col-12">
+        <div class="counter-classic">
+          <div class="counter-classic-number"><span class="icon-lg novi-icon offset-right-10 mercury-icon-group"></span><span class="counter text-white" data-speed="2000">1500</span>
+          </div>
+          <div class="counter-classic-title">Team Members</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+*/
+
+
+<div class="owl-carousel review-carousel" data-items="1" data-sm-items="1" data-md-items="1" data-lg-items="1" data-xl-items="1" data-xxl-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="true" data-autoplay="false">
+  <div class="item">
+    <div class="item-preview wow fadeInDown" data-wow-delay=".2s"><img src="images/star.jpg" alt="" width="216" height="108"/>
+    </div>
+    <div class="item-description wow fadeInUp" data-wow-delay=".3s">
+      <p>I was impressed by the quality of what your specialists did. They quickly found out what was the main problem of my company and helped me form a correct strategy, which worked perfectly and set my business on the right path.</p>
+      <div class="item-subsection"><span class="item-subsection-title devider-left">Heather Perry</span><span>Regular Client</span></div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item-preview wow fadeInDown" data-wow-delay=".2s"><img src="images/star.jpg" alt="" width="216" height="108"/>
+    </div>
+    <div class="item-description wow fadeInUp" data-wow-delay=".3s">
+      <p>I appreciate what you’ve done to help my small company develop and thrive in that market niche that we specialize in. Your business consulting experts are the best in the whole industry and I’m going to recommend you to my partners!</p>
+      <div class="item-subsection"><span class="item-subsection-title devider-left">Donald Hughes</span><span>Regular Client</span></div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item-preview wow fadeInDown" data-wow-delay=".2s"><img src="images/star.jpg" alt="" width="216" height="108"/>
+    </div>
+    <div class="item-description wow fadeInUp" data-wow-delay=".3s">
+      <p>My cooperation with your team helped me understand that you really care about your clients – it was proved by a lot of positive reviews already – and that's why I chose you. Thank you for a great job, you are true professionals!</p>
+      <div class="item-subsection"><span class="item-subsection-title devider-left">Anthony Parker</span><span>Regular Client</span></div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item-preview wow fadeInDown" data-wow-delay=".2s"><img src="images/star.jpg" alt="" width="216" height="108"/>
+    </div>
+    <div class="item-description wow fadeInUp" data-wow-delay=".3s">
+      <p>My cooperation with your team helped me understand that you really care about your clients – it was proved by a lot of positive reviews already – and that's why I chose you. Thank you for a great job, you are true professionals!</p>
+      <div class="item-subsection"><span class="item-subsection-title devider-left">Anthony Parker</span><span>Regular Client</span></div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item-preview wow fadeInDown" data-wow-delay=".2s"><img src="images/star.jpg" alt="" width="216" height="108"/>
+    </div>
+    <div class="item-description wow fadeInUp" data-wow-delay=".3s">
+      <p>Two years after СonsultBiz’s involvement, we are remarkably successful and the leader in served markets. This brought industry knowledge, best practices, and real-world solutions to the intricate challenges we faced.</p>
+      <div class="item-subsection"><span class="item-subsection-title devider-left">Jennifer Coleman</span><span>Regular Client</span></div>
+    </div>
+  </div>
+</div>

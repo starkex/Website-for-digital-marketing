@@ -1,0 +1,77 @@
+.my-carousel-item{
+  position: absolute;
+}
+
+#my-carousel-item-1{
+  background-color: red;
+  border-radius: 100px;
+  left: 0rem;
+  animation: myfirst 20s infinite;
+}
+
+#my-carousel-item-2{
+  background-color: purple;
+  border-radius: 100px; 
+  left: 3rem;
+  animation: mysecond 20s infinite;
+}
+#my-carousel-item-3{
+  background-color: blue;
+  border-radius: 100px;
+  left: 5rem;
+  animation: mythird 20s infinite;
+}
+#my-carousel-item-4{
+  background-color: green;
+  border-radius: 100px;
+  left: 10rem;
+  animation: myfourth 20s infinite;
+}
+#my-carousel-item-5{
+  background-color: yellow;
+  border-radius: 100px;
+  left: 20rem;
+  animation: myfifth 20s infinite;
+}
+
+@keyframes myfirst {
+    0%   {left: 0rem; width: 2rem; height: 2rem; z-index: -1}
+    20%  {left: 5rem; width: 5rem; height: 5rem;  z-index: 1;}
+    40%  {left: 12rem; width: 8rem; height: 8rem; z-index:99}
+    60%  {left: 22rem; width: 5rem; height: 5rem;  z-index: 1;}
+    80%  {left: 30rem; width: 2rem; height: 2rem; z-index: -1}
+    100% {left: 0rem; width: 2rem; height: 2rem; z-index: -1}
+  }
+@keyframes mysecond {
+    0%   {left: 5rem; width: 5rem; height: 5rem;  z-index: 1;}
+    20%  {left: 12rem; width: 8rem; height: 8rem; z-index:99}
+    40%  {left: 22rem; width: 5rem; height: 5rem;  z-index: 1;}
+    60%  {left: 30rem; width: 2rem; height: 2rem; z-index: -1}
+    80%  {left: 0rem; width: 2rem; height: 2rem; z-index: -1}
+    100% {left: 5rem; width: 5rem; height: 5rem;  z-index: 1;}
+  }
+
+@keyframes mythird {
+    0%   {left: 12rem; width: 8rem; height: 8rem; z-index:99}
+    20%  {left: 22rem; width: 5rem; height: 5rem; z-index: 1;}
+    40%  {left: 30rem; width: 2rem; height: 2rem; z-index: -1}
+    60%  {left: 0rem; width: 2rem; height: 2rem; z-index: -1}
+    80%  {left: 5rem; width: 5rem; height: 5rem; z-index: 1;}
+    100% {left: 12rem; width: 8rem; height: 8rem; z-index:99}
+  }
+@keyframes myfourth {
+    0%   {left: 22rem; width: 5rem; height: 5rem; z-index: 1;}
+    20%  {left: 30rem; width: 2rem; height: 2rem; z-index: -1}
+    40%  {left: 0rem; width: 2rem; height: 2rem; z-index: -1}
+    60%  {left: 5rem; width: 5rem; height: 5rem; z-index: 1;}
+    80%  {left: 12rem; width: 8rem; height: 8rem; z-index:99}
+    100% {left: 22rem; width: 5rem; height: 5rem; z-index: 1;}
+  }
+@keyframes myfifth {
+    0%   {left: 30rem; width: 2rem; height: 2rem; z-index: -1}
+    20%  {left: 0rem; width: 2rem; height: 2rem; z-index: -1}
+    40%  {left: 5rem; width: 5rem; height: 5rem; z-index: 1;}
+    60%  {left: 12rem; width: 8rem; height: 8rem; z-index:99}
+    80%  {left: 22rem; width: 5rem; height: 5rem; z-index: 1;}
+    100% {left: 30rem; width: 2rem; height: 2rem; z-index: -1}
+  }

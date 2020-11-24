@@ -1,0 +1,236 @@
+text-white
+/*=====================*/
+.social-nav {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin: 10px auto;
+  font-style: normal !important;
+  position: relative;
+  top: -20px;
+}
+.social-nav li {
+  display: inline-block;
+}
+.social-nav a {
+  display: inline-block;
+  float: left;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 48px;
+  background: #000;
+  position: relative;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.model-0 {
+  position: absolute;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  left: 0;
+  top: 50px;
+}
+
+.model-3d-0 a {
+  background: #333;
+  float: left;
+  margin: 0 10px;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.model-3d-0 a:hover {
+  -moz-transform: rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+.model-3d-0 a:hover .fornt {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.model-3d-0 a:hover .back {
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.model-3d-0 .front, .model-3d-0 .back {
+  width: 48px;
+  height: 48px;
+  background: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-transform: translateZ(18px);
+  -webkit-transform: translateZ(18px);
+  transform: translateZ(18px);
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.model-3d-0 .back {
+  font-size: 32px;
+  -moz-transform: rotateX(90deg) translateZ(18px);
+  -ms-transform: rotateX(90deg) translateZ(18px);
+  -webkit-transform: rotateX(90deg) translateZ(18px);
+  transform: rotateX(90deg) translateZ(18px);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.model-3d-0 .twitter .back {
+  background: #00ACED;
+}
+.model-3d-0 .facebook .back {
+  background: #3B579D;
+}
+.model-3d-0 .google-plus .back {
+  background: #DD4A3A;
+}
+.model-3d-0 .linkedin .back {
+  background: #007BB6;
+}
+.model-3d-0 .pinterest .back {
+  background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+}
+
+.model-3d-1 a {
+  background: #fff;
+  color: #666;
+  float: left;
+  margin: 0 10px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.model-3d-1 a:hover {
+  color: #fff;
+  -moz-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+.model-3d-1 a:hover .fornt {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.model-3d-1 a:hover .back {
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.model-3d-1 .front, .model-3d-1 .back {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+.model-3d-1 .back {
+  -moz-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.model-3d-1 .twitter .back {
+  background: #00ACED;
+}
+.model-3d-1 .facebook .back {
+  background: #3B579D;
+}
+.model-3d-1 .google-plus .back {
+  background: #DD4A3A;
+}
+.model-3d-1 .linkedin .back {
+  background: #007BB6;
+}
+.model-3d-1 .pinterest .back {
+  background: #CB2026;
+}
+li{
+  position: relative;
+  margin-left: -10px;
+}
+
+@media (min-width: 375px) {
+  li{
+    position: relative;
+    margin-left: -10px;
+
+  }
+}
+/*====== Model-9 Animation ========*/
+@-moz-keyframes icon-move {
+  49% {
+    -moz-transform: translateX(-40px);
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  50% {
+    -moz-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 1;
+  }
+  80% {
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes icon-move {
+  49% {
+    -webkit-transform: translateX(-40px);
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes icon-move {
+  49% {
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -webkit-transform: translateX(-40px);
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  50% {
+    -moz-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 1;
+  }
+  80% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
