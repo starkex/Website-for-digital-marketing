@@ -2,7 +2,7 @@
 if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "starkanonimity511@gmail.com";
+    $email_to = "donteditthiscodewarning@gmail.com";
     $email_subject = "New form submissions ";
 
     function problem($error)
@@ -293,7 +293,7 @@ if (isset($_POST['Email'])) {
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!--RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--> <a class="brand" href="index.html"><img class="brand-logo-dark" src="images/rootfinwhite.png" alt="india roots" width="100" height="17"/>
+                    <!--Brand--> <a class="brand" href="index.html"><img class="brand-logo-dark" src="images/rootfinwhite.png" alt="RStark" width="100" height="17"/>
                         <img class="brand-logo-light" src="images/rootfin.png" alt="" width="100" height="17"/></a>
                   </div>
                 </div>
@@ -433,7 +433,7 @@ Our Cadre of Innovators and technical wizzards yearn to pick up new found challe
         </div>
         <div class="container wow fadeInUp" data-wow-delay=".4s">
           <div class="footer-classic-aside">
-            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. Design by <a href="#">India Roots</a></p>
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. Design by <a href="#">RStark</a></p>
           <br/>
           </div>
         </div>
